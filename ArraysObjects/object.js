@@ -7,3 +7,15 @@ var favCar = {};
 favCar.color = "red";
 favCar.convertible = true;
 console.log(favCar);
+
+// adding functions to objects
+favCar.start = function() {
+    console.log("Starting the car");
+}
+favCar.stop = function() {
+    console.log("Stopping the car");
+}
+
+// calling the functions
+favCar.start();
+favCar.stop();
