@@ -29,8 +29,8 @@ birdCan();
 
 // Task 3
 function animalCan() {
-    for (key of Object.keys(animal)) {
-        console.log(key + " : " + animal[key]);
+    for (prop in bird) {
+        console.log(prop + ": " + bird[prop]);
     }
 }
 animalCan();
